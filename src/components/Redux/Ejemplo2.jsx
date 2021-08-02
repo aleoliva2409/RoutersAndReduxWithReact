@@ -10,6 +10,7 @@ class Ejemplo2 extends Component {
 
   handleChange = (e) => {
     this.setState({
+      ...this.state,
       character: e.target.value
     })
   }
@@ -21,7 +22,7 @@ class Ejemplo2 extends Component {
 
   render() {
     return (
-      <div style={{textAlign: 'center'}}>
+      <div >
         <h1>Personaje</h1>
         <form onSubmit={this.handleSubmit}>
           <input type="text" onChange={this.handleChange} value={this.state.character}/>

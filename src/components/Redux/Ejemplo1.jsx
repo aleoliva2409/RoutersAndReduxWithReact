@@ -35,10 +35,18 @@ class Ejemplo1 extends Component {
           <button>Buscar</button>
         </form>
         <div>
-          <p>Nombre: {this.props.data?.name}</p>
-          <p>Altura: {this.props.data?.height}</p>
-          <p>Nacimiento: {this.props.data?.birth_year}</p>
-          <p>Genero: {this.props.data?.gender}</p>
+          {
+            this.props.data.gender ?
+            <>
+              <p>Nombre: {this.props.data.name}</p>
+              <p>Altura: {this.props.data.height}</p>
+              <p>Nacimiento: {this.props.data.birth_year}</p>
+              <p>Genero: {this.props.data.gender}</p>
+            </>
+            :
+            <h3>No hay personajes</h3>
+          }
+
         </div>
         <a href="https://github.com/aleoliva2409/RoutersAndReduxWithReact/blob/master/src/components/Redux/Ejemplo1.jsx" target="_blank" rel="noreferrer">Ver codigo</a>
       </div>
@@ -48,7 +56,7 @@ class Ejemplo1 extends Component {
 
 function mapStateToProps(state) {
   return {
-    data: state.characters.character,
+    data: state.characters.character, // {}
   }
 }
 
