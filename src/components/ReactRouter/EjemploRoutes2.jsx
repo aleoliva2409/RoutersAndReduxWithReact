@@ -10,7 +10,7 @@ class EjemploRoutes2 extends Component {
     return (
       <div>
         <h1>Params 2: {this.state.id} 2 </h1>
-        <p>Mira el codigo para ver la diferencia</p>
+        <a href="https://github.com/aleoliva2409/RoutersAndReduxWithReact/blob/master/src/components/ReactRouter/EjemploRoutes2.jsx" target="_blank" rel="noreferrer">Ver codigo</a>
       </div>
     )
   }

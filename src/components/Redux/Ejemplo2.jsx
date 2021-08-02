@@ -33,6 +33,7 @@ class Ejemplo2 extends Component {
           <p>Nacimiento: {this.props.data?.birth_year}</p>
           <p>Genero: {this.props.data?.gender}</p>
         </div>
+        <a href="https://github.com/aleoliva2409/RoutersAndReduxWithReact/blob/master/src/components/Redux/Ejemplo2.jsx" target="_blank" rel="noreferrer">Ver codigo</a>
       </div>
     )
   }

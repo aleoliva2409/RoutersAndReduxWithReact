@@ -8,7 +8,7 @@ const EjemploRoutes4 = (props) => {
   return (
     <div>
         <h1>Params 4: {id} 4 </h1>
-        <p>Mira el codigo para ver la diferencia</p>
+        <a href="https://github.com/aleoliva2409/RoutersAndReduxWithReact/blob/master/src/components/ReactRouter/EjemploRoutes4.jsx" target="_blank" rel="noreferrer">Ver codigo</a>
     </div>
   )
 }

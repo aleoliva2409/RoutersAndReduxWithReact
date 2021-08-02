@@ -9,7 +9,7 @@ const EjemploRoutes5 = () => {
   return (
     <div>
       <h1>Params 5: {id} 5 </h1>
-      <p>Mira el codigo para ver la diferencia</p>
+      <a href="https://github.com/aleoliva2409/RoutersAndReduxWithReact/blob/master/src/components/ReactRouter/EjemploRoutes5.jsx" target="_blank" rel="noreferrer">Ver codigo</a>
     </div>
   );
 };
