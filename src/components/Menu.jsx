@@ -23,6 +23,7 @@ class Menu extends Component {
             <Link to="/Ejemplo3">EjemploRedux3</Link>
             <Link to="/Ejemplo4">EjemploRedux4</Link>
             <Link to="/Ejemplo5">EjemploRedux5</Link>
+            <Link to="/form">Form</Link>
           </ul>
         </nav>
       </div>
